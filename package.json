@@ -1,0 +1,13 @@
+{
+  "name": "woocommerce-mpesa-gateway",
+  "version": "1.0.0",
+  "description": "M-Pesa payment gateway for WooCommerce",
+  "main": "assets/js/mpesa-checkout-block.min.js",
+  "scripts": {
+    "build": "wp-scripts build assets/src/mpesa-checkout-block.js --output-path=assets/js --output-filename=mpesa-checkout-block.min.js",
+    "start": "wp-scripts start assets/src/mpesa-checkout-block.js --output-path=assets/js --output-filename=mpesa-checkout-block.min.js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^26.0.0"
+  }
+}
